@@ -1,0 +1,10 @@
+Step 1: input the distance matrix, [Dij]i = 1, 2, 3, ..., n, where n is the number of nodes in the distance network.  
+Step 2: Randomly select a base city, let it be X and delete the column X of the distance matrix 
+Step 3: Include X as the first city in the tour. 
+Step 4: in the row X, find the least undeleted matrix cell entry and identify the corresponding column (break tie randomly), let this column be Y. 
+Step 5: include Y as the next city to be visited in the tour. 
+Step 6: Delete the column Y of the distance matrix. 
+Step 7: Check whether all the columns of the distance matrix are deleted. If yes,go to Step 9: otherwise go to step 8. 
+Step 8: Set X = Y and go to step 4. 
+Step 9: include the first city as the last city in the tour. 
+Step 10: list the cities in the tour along with the corresponding total distance of travel
