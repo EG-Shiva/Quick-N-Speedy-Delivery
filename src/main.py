@@ -4,8 +4,6 @@ from matplotlib import pyplot as plt
 
 sns.set()
 
-sns.set()
-
 data = pd.read_csv('G:/PPT/2 - 2/DAA/Project/Dataset/Dataset1.csv')
 plt.scatter(data['Longitude'], data['Latitude'])
 plt.xlim(-180, 180)
