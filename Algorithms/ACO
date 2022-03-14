@@ -1,1 +1,15 @@
+-->Ant colony optimization (ACO) is a population-based metaheuristic that can be used to find approximate solutions to difficult optimization problems.
+-->The solution construction process is stochastic and is biased by a pheromone model, that is, a set of parameters associated with graph components (either nodes or edges) 
+   whose values are modified at runtime by the ants.
+
+Working of Ant Colony Optimization::
+
+1)First, each ant in the colony constructs a solution based on previously deposited pheromone trails. 
+2)Next ants will lay pheromone trails on the components of their chosen solution, depending on the solution’s quality.
+3)An ant will often follow the strongest pheromone trail when constructing a solution. 
+4)However, for the ant to consider solutions other than the current best, a small amount of randomness is required in its decision process.
+5)In addition to this, a heuristic value is also computed and considered helping to guide the search process towards the best solutions. 
+6)In the example of the multiple traveling salesman problem this heuristic will typically be the length of the edge between the destinations being considered - the shorter 
+  the edge, the more likely an ant will pick it.
+
 
